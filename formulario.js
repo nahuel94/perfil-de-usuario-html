@@ -7,7 +7,7 @@
         const nombre = document.getElementById("nombre").value;
         const correo = document.getElementById("correo").value;
         const telefono = document.getElementById("telefono").value;
-        const bio = document.getElementById("bio").value;
+        const bio = document.getElementById("biografia").value;
 
         // Actualizar los elementos en la página
         document.getElementById("nombrePerfil").textContent = nombre;
