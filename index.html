@@ -3,24 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="formulario.js"></script>
 </head>
 <body>
 <header>
     <img src="https://campus.frm.utn.edu.ar/pluginfile.php/115942/user/icon/adaptable/f1?rev=340472" alt="Imagen de perfil">
     <h1>Bienvenido a mi perfil</h1>
 </header>
-<article>
-    <h2>Hola soy Nahuel¡¡¡</h2>
-    <p>Te puedo contar algo sobre mi?
-    </p>
-</article>
 <main>
-    <h3>Si, Excelente¡¡</h3>
-    <p>me gusta mucho programar¡¡, aun que me falta mucho por aprender,
-        se lo suficiente para iniciar un proyecto, y si tengo algun probroblema
-        o inconveniente, investigare y hare lo posible para resolverlo¡¡¡
-    </p>
-</main>
+    <!--Biografia-->
+<article>
+    <h2 id="nombrePerfil">Hola soy Nahuel¡¡¡</h2>
+    <p id="bioPerfil">Soy un estudiante apasionado por la programación</p>
+</article>
+    <!--Tabla de contacto-->
 <article>
     <h4>Te dejo mis datos</h4>
     <table>
@@ -32,12 +28,29 @@
         </thead>
         <tbody>
             <tr>
-                <td>nahuelpereta@gmail.com</td>
-                <td>2613826219</td>
+                <td id="emailPerfil">nahuelpereta@gmail.com</td>
+                <td id="telefonoPerfil">2613826219</td>
             </tr>
         </tbody>
     </table>
 </article>
+    <!--Formulario-->
+    <form id="formPerfil">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="Nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="Corre">
+
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" name="Telefono">
+
+        <label for="biografia">Biografía</label>
+        <textarea id="biografia" name="Biografia" rows="4"></textarea>
+
+        <button type="submit">Guardar cambo</button>
+    </form>
+</main>
 <footer>
     <p>    &copy; <small>2025</small> Nahuel Pereyra. Todos los derechos reservados.</p>
 </footer>

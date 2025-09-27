@@ -46,7 +46,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "google.protobuf.language",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,7 +54,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -67,7 +66,9 @@
       <updated>1756338584528</updated>
       <workItem from="1756338586591" duration="2079000" />
       <workItem from="1756561814695" duration="4946000" />
-      <workItem from="1756589184329" duration="2860000" />
+      <workItem from="1756589184329" duration="4092000" />
+      <workItem from="1757546391139" duration="2756000" />
+      <workItem from="1757592431773" duration="2416000" />
     </task>
     <servers />
   </component>
@@ -96,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
